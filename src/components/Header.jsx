@@ -1,4 +1,4 @@
-import styles from "./header.module.css";
+
 
 function Header() {
   return (
@@ -6,7 +6,14 @@ function Header() {
       <div className="header__container">
         <div className="header__container--logo">
           <h1 className="header__container--logo--title">MyCake</h1>
-          <button className="header__container--logo--btn"><img className="header__container--logo--btn--img" src="" /></button>
+          <button className="header__container--logo--btn">
+            <img
+              className="header__container--logo--btn--img"
+              src="img/location_pin.png"
+              alt=""
+            />
+            Вся Україна
+          </button>
         </div>
 
         <nav className="header__container--nav">
@@ -16,8 +23,19 @@ function Header() {
         </nav>
 
         <div className="header__container--user">
-          <img className="header__container--user--chat" src="" alt="" />
-          <p className="header__container--user--login"><img className="header__container--user--login--img" src="" /></p>
+          <img
+            className="header__container--user--chat"
+            src="img/forum.png"
+            alt=""
+          />
+          <p className="header__container--user--login">
+            <img
+              className="header__container--user--login--img"
+              src="img/account_circle.png"
+              alt=""
+            />
+            Увійти
+          </p>
         </div>
       </div>
     </header>
