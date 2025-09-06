@@ -9,8 +9,8 @@ function Header() {
           <button className="header__container--logo--btn">
             <img
               className="header__container--logo--btn--img"
-              src="img/location_pin.png"
-              alt=""
+              src="./galochka.png"
+              alt="vector"
             />
             Вся Україна
           </button>
@@ -25,14 +25,14 @@ function Header() {
         <div className="header__container--user">
           <img
             className="header__container--user--chat"
-            src="img/forum.png"
-            alt=""
+            src="message.png"
+            alt="message"
           />
           <p className="header__container--user--login">
             <img
               className="header__container--user--login--img"
-              src="img/account_circle.png"
-              alt=""
+              src="./account_circle.png"
+              alt="account"
             />
             Увійти
           </p>
