@@ -1,7 +1,8 @@
 import React from "react";
 import "./Main.module.css"; 
 
-const Main = () => {
+
+function Main() {
   return (
     <div className="container">
       <div className="container__left">
