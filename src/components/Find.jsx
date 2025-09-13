@@ -1,5 +1,5 @@
 import React from "react";
-import "./Main.module.css"; 
+import "./Find.module.css"; 
 
 
 function Main() {
